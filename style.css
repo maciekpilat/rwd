@@ -1,0 +1,69 @@
+@font-face {
+    font-family: verdana;
+    src: url(verdana.ttf);
+}
+
+body {
+    font-family: verdana;
+}
+
+@media (min-width: 1171px) {
+    body #header {
+        background-image: url(obrazy/man-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1128px;
+        width: 100%;
+    }
+    body #header p {
+        color: white;
+        font-size: 3vw;
+        position: relative;
+        left: 5%;
+        top: 50%;
+    }
+}
+
+@media (max-width:1170px) {
+    body #header {
+        background-image: url(obrazy/man-2.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 1128px;
+        width: 100%;
+    }
+    body #header p {
+        color: white;
+        font-size: 2vw;
+        position: relative;
+        left: 68%;
+        top: 18%;
+    }
+}
+
+@media (max-width:991px) {
+    body #header {
+        background-image: url(obrazy/man-1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 1128px;
+        width: 100%;
+    }
+    body #header p {
+        color: black;
+        text-align: center;
+        font-size: 2vw;
+        position: absolute;
+        left: 30%;
+        top: 95%;
+    }
+    body #header p span {
+        color: black;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bolder;
+              
+      
+    }
+}
