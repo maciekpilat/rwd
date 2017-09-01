@@ -3,8 +3,11 @@
     src: url(verdana.ttf);
 }
 
-body {
+body,
+html {
     font-family: verdana;
+    height: 100%;
+    margin: 0;
 }
 
 @media (min-width: 1171px) {
@@ -13,57 +16,54 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 1128px;
+        height: 100%;
         width: 100%;
     }
     body #header p {
         color: white;
         font-size: 3vw;
-        position: relative;
-        left: 5%;
-        top: 50%;
+        margin: 0;
+        padding-left: 10%;
+        padding-top: 20%;
     }
 }
 
 @media (max-width:1170px) {
     body #header {
         background-image: url(obrazy/man-2.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 1128px;
+        background-position: center;
+        height: 100%;
         width: 100%;
     }
     body #header p {
         color: white;
         font-size: 2vw;
-        position: relative;
-        left: 68%;
-        top: 18%;
+        margin: 0;
+        padding-left: 66%;
+        padding-top: 20%;
     }
 }
 
 @media (max-width:991px) {
     body #header {
         background-image: url(obrazy/man-1.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 1128px;
+        background-position: center;
+        height: 50%;
         width: 100%;
     }
     body #header p {
         color: black;
-        text-align: center;
         font-size: 2vw;
-        position: absolute;
-        left: 30%;
-        top: 95%;
-    }
-    body #header p span {
         color: black;
         text-align: center;
-        font-size: 3vw;
+        padding-left: 0%;
+        padding-top: 45%;
+    }
+    body #header p span {
         font-weight: bolder;
-              
-      
     }
 }
